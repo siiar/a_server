@@ -1,0 +1,4 @@
+type Query {
+  country(name: String!): Country
+  exchange(base: String!, amount: Float!, symbols: [String!]!): Exchange
+}

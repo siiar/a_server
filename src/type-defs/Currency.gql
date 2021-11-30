@@ -1,0 +1,5 @@
+type Currency {
+  name: String
+  symbol: String
+  value: Float                # use for exchange rate
+}

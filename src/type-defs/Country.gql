@@ -1,0 +1,9 @@
+type Country {
+  name: String    
+  topLevelDomain: [String]
+  region: [String]   
+  population: Int                
+  currencies: [Currency] 
+  capital: [String]
+  flag: String
+}
